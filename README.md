@@ -25,14 +25,6 @@ The pipeline follows the Medallion Architecture and is orchestrated using Databr
 
 ---
 
-# Lakeflow Job Workflow
-
-The ETL pipeline is orchestrated using **Databricks Lakeflow Jobs**. Each task executes only after the successful completion of its upstream dependency.
-
-![Lakeflow Job DAG](images/Lakeflow_DAG.png)
-
----
-
 # Technology Stack
 
 - Databricks
